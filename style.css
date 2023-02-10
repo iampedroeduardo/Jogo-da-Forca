@@ -1,0 +1,69 @@
+#jogo{
+    display: flex;
+    width: 500px;
+    border: 1px solid black;
+    margin: auto;
+}
+img{
+    display:flex;
+    justify-content: left;
+}
+#palavra{
+    justify-content: right;
+    align-items: flex-end;
+    display: flex;
+    margin-bottom: 40px;
+}
+.letra{
+    width: 15px;
+    height: 20px;
+    border-bottom: 3px solid black;
+    margin-right: 3px;
+    text-align: center;
+}
+.teclado{
+    width: 25px;
+    height: 25px;
+    border: 0px;
+    background-color: gray;
+    color: white;
+    margin: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+.linha{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+.botao2{
+    background: -webkit-linear-gradient(bottom, #46FFB9, #46FED7 80%);
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    border: 0px;
+    cursor: pointer;
+}
+.box {
+    width: 500px;
+    height: 200px;
+    background: #8A8A8A;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    text-align: center;
+}
+#letras{
+    margin-top: 50px;
+}
